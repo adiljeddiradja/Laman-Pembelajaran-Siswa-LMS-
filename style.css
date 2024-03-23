@@ -1,0 +1,100 @@
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 1em;
+    /* Removed flex-wrap: wrap; unless .logo's parent is a flex container */
+}
+
+.logo:hover, .logo:focus { /* Corrected :hoover to :hover */
+    background-color: #007bff;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo:active {
+    background-color: #0056b3;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    background-color: aqua;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-color: #26c3ff;
+}
+
+/* Adjusted for plain CSS: Separate rules for .btn-mulai */
+.btn-mulai {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+    font-weight: bold;
+}
+
+.btn-mulai:hover, .btn-mulai:focus {
+    background-color: #0056b3;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-mulai:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-brand:hover, .navbar-brand:focus {
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.nav-link {
+    font-weight: bold;
+}
+.nav-link:hover, .nav-link:focus {
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.hero-title{
+    font-weight: bold;
+}
+.hero-title:hover, .hero-title:focus {
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.accordion{
+    width: 100%;
+    
+   
+}
+.accordion.s{
+    width: 100%;
+}
+.artikel{
+    text-align: justify;
+}
+.footer {
+    background-color: #007bff; /* Change to your desired footer background color */
+    padding: 20px 0; /* Add some padding for spacing */
+    color: white; /* This will color the text inside the footer */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default paragraph margins for a cleaner look */
+  }
+  .dokumentasi{
+    width: 92%;
+  }
